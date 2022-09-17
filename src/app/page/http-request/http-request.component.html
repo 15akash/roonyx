@@ -1,0 +1,7 @@
+<div class="http-request-con">
+    <h1>Click on the button to log results in the array</h1>
+    <button (click)="modifyEpisodeArr()">Log final array</button>
+    <h4 *ngIf="isLoading">Fetching characters...</h4>
+    <h4 *ngIf="modifiedEpisodesList.length">Check console to see the episodes list where characters JSON object is
+        replaced.</h4>
+</div>
